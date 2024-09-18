@@ -4,13 +4,49 @@
     margin: 0;
 }
 @font-face {
-  font-family: 'Kalameh';
-  src: url(/) format("ttf");
+  font-family: 'MyFont';
+  src: url(/Kalameh-Black.2d9028b.ttf) format("ttf");
 }
 body {
     background: #0D1116;
     width: 90rem;
     height: 104.4375rem;
-    font-family: Kalameh;
+    font-family: MyFont;
     color: white;
+}
+
+.menuBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftBar a {
+    color: white;
+    text-decoration: none;
+}
+.Sign {
+    border-radius: 1.9375rem;
+    border: 1px solid #FFD43F;
+    display: inline-flex;
+    padding: 0.625rem 1.875rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}
+.Login {
+    padding: 2rem;
+}
+.centerBar, a {
+    color: white;
+    text-decoration: none;
+    padding: 1.3rem;
+}
+.centerBar img {
+    align-items: center;
+}
+.rightBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
 }
