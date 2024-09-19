@@ -152,3 +152,39 @@ body {
     font-weight: 700;
     line-height: normal;
 }
+
+footer {
+    display: flex;
+    width: 94.8rem;
+    height: 31.5rem;
+    flex-shrink: 0;
+    background: #14181B;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 8rem;
+    direction: rtl;
+    justify-content: space-evenly;
+}
+.Namelink {
+    display: flex;
+    padding-top: 3rem;
+    padding-right: 12rem;
+}
+.Namelink a {
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem;
+    padding-left: 8rem;
+    text-decoration: none;
+}
+.Namelink h2 {
+    padding-right: 0.8rem;
+}
+.logos{
+    display: flex;
+    padding-top: 3rem;
+    padding-left: 10rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
